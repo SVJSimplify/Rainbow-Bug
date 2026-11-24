@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "firefox": {
+      "command": "npx",
+      "args": ["-y", "@mozilla/firefox-mcp@latest", "--tool-preset", "developer"],
+      "env": { "START_URL": "about:blank" }
+    }
+  }
+}
