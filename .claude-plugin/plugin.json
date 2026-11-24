@@ -1,0 +1,8 @@
+{
+  "name": "rainbow-bug",
+  "version": "1.1.0",
+  "description": "Three-specialist, evidence-first bug bounty workflow for Claude Code with Firefox MCP.",
+  "author": { "name": "SVJSimplify" },
+  "license": "MIT",
+  "keywords": ["bug-bounty", "security-testing", "firefox", "mcp", "vulnerability-research"]
+}
