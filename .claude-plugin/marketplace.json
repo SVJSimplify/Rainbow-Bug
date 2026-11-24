@@ -1,0 +1,11 @@
+{
+  "name": "rainbow-bug",
+  "owner": { "name": "SVJSimplify" },
+  "metadata": { "description": "Evidence-first bug bounty research with a strict three-agent limit and Firefox MCP." },
+  "plugins": [{
+    "name": "rainbow-bug",
+    "source": { "source": "github", "repo": "SVJSimplify/Rainbow-Bug" },
+    "description": "Three-specialist authorized bug bounty workflow with Firefox browser automation.",
+    "version": "1.1.0"
+  }]
+}
