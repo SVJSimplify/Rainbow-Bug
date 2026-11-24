@@ -1,0 +1,12 @@
+{
+  "description": "Lightweight safety reminder before shell/network tools; does not replace explicit authorization or Claude permission prompts.",
+  "hooks": {
+    "UserPromptSubmit": [{
+      "hooks": [{
+        "type": "command",
+        "command": "python -c \"print('RAINBOW-BUG SAFETY: Confirm written authorization, exact scope, exclusions, rate limits, and safe proof before any target interaction. Never test out-of-scope assets or access real user data.')\"",
+        "timeout": 10
+      }]
+    }]
+  }
+}
